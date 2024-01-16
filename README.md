@@ -1,9 +1,18 @@
-# Fabric Example Mod
+# Neko Authlib Injector
 
-## Setup
+A VERY simple authlib injector, but it works!
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+It (might) not depends on any version of `Fabric Loader` and `Minecraft`, so the mod did not ask for any dependency in its `fabric.mod.json`
 
-## License
+## Config
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Config file is located at working directory of Minecraft server, named `neko-authlib-injector.properties`
+
+```properties
+originalUrl=https\://sessionserver.mojang.com
+url=https\://example.com
+```
+
+Replace the `url` to your yggdrasil server url.
+
+`originalUrl` is the url which will be replaced by the mod, no need to modify it by default.
