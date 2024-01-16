@@ -13,6 +13,6 @@ originalUrl=https\://sessionserver.mojang.com
 url=https\://example.com
 ```
 
-Replace the `url` to your yggdrasil server url.
+Replace the `url` with your yggdrasil server url.
 
 `originalUrl` is the url which will be replaced by the mod, no need to modify it by default.
