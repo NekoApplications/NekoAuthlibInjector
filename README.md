@@ -1,6 +1,6 @@
 # Neko Authlib Injector
 
-A VERY simple authlib injector, but it works!
+A VERY simple authlib injector ~~, but it works!~~
 
 It (might) not depends on any version of `Fabric Loader` and `Minecraft`, so the mod did not ask for any dependency in its `fabric.mod.json`
 
