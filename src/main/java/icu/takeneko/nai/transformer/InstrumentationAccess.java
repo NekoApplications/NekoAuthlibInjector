@@ -1,4 +1,4 @@
-package net.zhuruoling.nai.transformer;
+package icu.takeneko.nai.transformer;
 
 import net.bytebuddy.agent.ByteBuddyAgent;
 

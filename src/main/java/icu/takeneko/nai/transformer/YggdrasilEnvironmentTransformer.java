@@ -1,6 +1,6 @@
-package net.zhuruoling.nai.transformer;
+package icu.takeneko.nai.transformer;
 
-import net.zhuruoling.nai.Mod;
+import icu.takeneko.nai.Mod;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.tree.*;

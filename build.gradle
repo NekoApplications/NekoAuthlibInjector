@@ -56,7 +56,7 @@ shadowJar {
 		rename { "${it}_${project.archivesBaseName}" }
 	}
 	exclude "/kotlin*"
-	relocate "net.bytebuddy", "net.zhuruoling.deps.bytebuddy"
+	relocate "net.bytebuddy", "icu.takeneko.deps.bytebuddy"
 }
 
 task("remapShadowJar", type: net.fabricmc.loom.task.RemapJarTask, dependsOn: shadowJar) {

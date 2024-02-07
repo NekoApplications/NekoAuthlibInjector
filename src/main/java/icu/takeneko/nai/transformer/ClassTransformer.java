@@ -1,9 +1,6 @@
-package net.zhuruoling.nai.transformer;
+package icu.takeneko.nai.transformer;
 
-import java.lang.instrument.ClassDefinition;
 import java.lang.instrument.ClassFileTransformer;
-import java.lang.instrument.UnmodifiableClassException;
-import java.security.ProtectionDomain;
 
 public abstract class ClassTransformer implements ClassFileTransformer {
 

@@ -1,6 +1,6 @@
-package net.zhuruoling.nai.mixin;
+package icu.takeneko.nai.mixin;
 
-import net.zhuruoling.nai.Mod;
+import icu.takeneko.nai.Mod;
 import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;

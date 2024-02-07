@@ -1,8 +1,8 @@
-package net.zhuruoling.nai;
+package icu.takeneko.nai;
 
+import icu.takeneko.nai.transformer.InstrumentationAccess;
+import icu.takeneko.nai.transformer.YggdrasilEnvironmentTransformer;
 import net.fabricmc.api.ModInitializer;
-import net.zhuruoling.nai.transformer.InstrumentationAccess;
-import net.zhuruoling.nai.transformer.YggdrasilEnvironmentTransformer;
 
 import java.io.File;
 import java.io.FileReader;
